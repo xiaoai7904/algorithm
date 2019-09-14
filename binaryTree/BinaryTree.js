@@ -8,6 +8,8 @@ class BinaryTree {
   }
   /**
    * 插入数据
+   * @param {object} data 新增数据
+   * @return void
    */
   add(data) {
     let node = new Node(data);
@@ -37,6 +39,8 @@ class BinaryTree {
   }
   /**
    * 删除数据
+   * @param {string} id 待删除数据id
+   * @return void
    */
   del(id) {
     const remove = (node, id) => {
@@ -85,6 +89,8 @@ class BinaryTree {
   }
   /**
    * 查找数据
+   * @param {string} id 查询数据id
+   * @return null | object
    */
   find(id) {
     if (!this.root) {
@@ -141,6 +147,9 @@ class BinaryTree {
   }
   /**
    * 遍历数据
+   * @param {function} cb 遍历回调函数 
+   * @param {string} type 遍历类型(先序,中序,后序)
+   * @return void
    */
   each(cb, type) {
     const TraversalMode = {
