@@ -13,7 +13,7 @@ class BinarySearch {
     !isSort && this.sort();
   }
   sort() {
-    // 重小到大排序
+    // 从小到大排序
     this.orgArray = this.orgArray.sort((a, b) => a - b);
   }
   /**
