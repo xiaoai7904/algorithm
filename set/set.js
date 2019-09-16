@@ -26,6 +26,7 @@ class Collection {
 
     this[`[[Entries]]`].push(value);
     this.size = this[`[[Entries]]`].length;
+    return this
   }
   /**
    * 清除所有成员
