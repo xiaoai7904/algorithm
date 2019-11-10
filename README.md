@@ -8,12 +8,12 @@ js常见算法集合
 [英文地址](https://leetcode.com/)
 
 #### 目录
-* [二叉树](./binaryTree)
+* [二叉树](./src/binaryTree)
 
-* [二分查找](./binarySearch)
+* [二分查找](./src/binarySearch)
 
-* [栈](./stack)
+* [栈](./src/stack)
 
-* [集合](./set)
+* [集合](./src/set)
 
-* [队列](./queue)
+* [队列](./src/queue)
