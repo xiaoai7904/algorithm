@@ -19,3 +19,5 @@ js常见算法集合
 * [队列](./src/queue)
 
 * [链表](./src/linkedList)
+
+* [字典](./src/dictionary)
